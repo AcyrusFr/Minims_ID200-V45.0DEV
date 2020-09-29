@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F375F9BC-5EEF-4AE0-9392-8032D7048D90}</ProjectGuid>
+    <RootNamespace>BaseFenetre</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ReferencePath>..\Minims_1.22;$(ReferencePath)</ReferencePath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ReferencePath>..\Minims_1.22;$(ReferencePath)</ReferencePath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ReferencePath>..\Minims_1.22;$(ReferencePath)</ReferencePath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\\..\\..\\..\\CLASSES;..\\..\\..\\..\\COMMUN\ClasseParametres\ClasseParametres;..\\..\\..\\..\\COMMUN\MFC GRID;C:\Program Files\Matrox Imaging\Mil\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4996;4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ueye_api.lib;milBlob.lib;milCode.lib;mil.lib;milim.lib;milEdge.lib;milMod.lib;milCal.lib;Iphlpapi.lib;libnodave.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Matrox Imaging\Mil\LIB;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BaseFenetre.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\\..\\..\\..\\..\\CLASSES\\Params;..\\..\\..\\..\\..\\CLASSES;..\\..\\..\\..\\..\\CLASSES_V2;..\\..\\..\\..\\..\\COMMUN\MFC GRID;..\\..\\..\\..\\..\\MIL_10_2\\x64\\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAsManaged>true</CompileAsManaged>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ueye_api_64.lib;milstr.lib;milCode.lib;milBlob.lib;mil.lib;milim.lib;milEdge.lib;milMod.lib;milCal.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\\..\\..\\..\\..\\MIL_10_2\\x64\\LIB;%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\\..\\..\\..\\CLASSES;..\\..\\..\\..\\COMMUN\ClasseParametres\ClasseParametres;..\\..\\..\\..\\COMMUN\MFC GRID;C:\Program Files\Matrox Imaging\Mil\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4996;4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ueye_api.lib;milStr.lib;milBlob.lib;milCode.lib;mil.lib;milim.lib;milEdge.lib;milMod.lib;milCal.lib;Iphlpapi.lib;libnodave.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Matrox Imaging\Mil\LIB;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BaseFenetre.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\\..\\..\\..\\..\\CLASSES\\Params;..\\..\\..\\..\\..\\CLASSES;..\\..\\..\\..\\..\\CLASSES_V2;..\\..\\..\\..\\..\\COMMUN\MFC GRID;..\\..\\..\\..\\..\\MIL_10_2\\x64\\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ueye_api_64.lib;milstr.lib;milCode.lib;milBlob.lib;mil.lib;milim.lib;milEdge.lib;milMod.lib;milCal.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\\..\\..\\..\\..\\MIL_10_2\\x64\\LIB;%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\CLASSES\AcyDial.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\ACYListBox.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_Base.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_File.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_Util.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\ado2.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Calibration.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagListe.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagPadAlpha.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagPadNum.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Image.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\ImageButtonWithStyle.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\BaseParam.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\DiagListeParam.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\DialogJeuParam.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\JeuParametres.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\KeyParam.CPP" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\Parametre.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\Static_ParamSlider.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\StaticMenu.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\StaticPolice.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES\VisualStylesXP.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\GraphListe.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\MenuAcyrus.cpp" />
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\StaticVisuImg_V2.cpp" />
+    <ClCompile Include="..\..\..\..\..\COMMUN\VOYANT\Voyant.cpp" />
+    <ClCompile Include="..\CLIENT\Article.cpp" />
+    <ClCompile Include="..\CLIENT\Base.cpp" />
+    <ClCompile Include="..\CLIENT\BaseFenetre.cpp" />
+    <ClCompile Include="..\CLIENT\BaseFenetreDoc.cpp" />
+    <ClCompile Include="..\CLIENT\BaseFenetreView.cpp" />
+    <ClCompile Include="..\CLIENT\Blobs.cpp" />
+    <ClCompile Include="..\CLIENT\ButtonAlarme.cpp" />
+    <ClCompile Include="..\CLIENT\Camera.cpp" />
+    <ClCompile Include="..\CLIENT\ClientOPC.cpp" />
+    <ClCompile Include="..\CLIENT\Code.cpp" />
+    <ClCompile Include="..\CLIENT\CodeBarreProj.cpp" />
+    <ClCompile Include="..\CLIENT\CodePiste.cpp" />
+    <ClCompile Include="..\CLIENT\CodeSachet.cpp" />
+    <ClCompile Include="..\CLIENT\ComHTML.cpp" />
+    <ClCompile Include="..\CLIENT\Compteurs.cpp" />
+    <ClCompile Include="..\CLIENT\config.cpp" />
+    <ClCompile Include="..\CLIENT\DalsaSpyder3CL.cpp" />
+    <ClCompile Include="..\CLIENT\Defaut.cpp" />
+    <ClCompile Include="..\CLIENT\DiagListeReq.cpp" />
+    <ClCompile Include="..\CLIENT\DiagSaisie.cpp" />
+    <ClCompile Include="..\CLIENT\DialAffGridRecette.cpp" />
+    <ClCompile Include="..\CLIENT\DialAlarmes.cpp" />
+    <ClCompile Include="..\CLIENT\DialCameras.cpp" />
+    <ClCompile Include="..\CLIENT\DialChargement.cpp" />
+    <ClCompile Include="..\CLIENT\DialDefautPiste.cpp" />
+    <ClCompile Include="..\CLIENT\DialDMX.cpp" />
+    <ClCompile Include="..\CLIENT\DialEtiquette.cpp" />
+    <ClCompile Include="..\CLIENT\DialFinOF.cpp" />
+    <ClCompile Include="..\CLIENT\DialGrpOPC.cpp" />
+    <ClCompile Include="..\CLIENT\DialInitialisation.cpp" />
+    <ClCompile Include="..\CLIENT\DialMachine.cpp" />
+    <ClCompile Include="..\CLIENT\DialMixup.cpp" />
+    <ClCompile Include="..\CLIENT\DialogParam.cpp" />
+    <ClCompile Include="..\CLIENT\DialParam.cpp" />
+    <ClCompile Include="..\CLIENT\DialPesee.cpp" />
+    <ClCompile Include="..\CLIENT\DialPesons.cpp" />
+    <ClCompile Include="..\CLIENT\DialRobot.cpp" />
+    <ClCompile Include="..\CLIENT\DialSelectPrint.cpp" />
+    <ClCompile Include="..\CLIENT\DialSelectRoi.cpp" />
+    <ClCompile Include="..\CLIENT\DialSplashInit.cpp" />
+    <ClCompile Include="..\CLIENT\DialFormulaire.cpp" />
+    <ClCompile Include="..\CLIENT\DialValidation.cpp" />
+    <ClCompile Include="..\CLIENT\DialValidLot.cpp" />
+    <ClCompile Include="..\CLIENT\DialVision.cpp" />
+    <ClCompile Include="..\CLIENT\EditClick.cpp" />
+    <ClCompile Include="..\CLIENT\Etiquette.cpp" />
+    <ClCompile Include="..\CLIENT\Extraction.cpp" />
+    <ClCompile Include="..\CLIENT\Form_camsim.cpp" />
+    <ClCompile Include="..\CLIENT\Form_DalsaSpyder.cpp" />
+    <ClCompile Include="..\CLIENT\FormBase.cpp" />
+    <ClCompile Include="..\CLIENT\FormMenuMachine.cpp" />
+    <ClCompile Include="..\CLIENT\FormStatus.cpp" />
+    <ClCompile Include="..\CLIENT\General.cpp" />
+    <ClCompile Include="..\CLIENT\GestAlarmes.cpp" />
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCell.cpp" />
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCellBase.cpp" />
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCtrl.cpp" />
+    <ClCompile Include="..\CLIENT\ImageResult.cpp" />
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\InPlaceEdit.cpp" />
+    <ClCompile Include="..\CLIENT\Journal.cpp" />
+    <ClCompile Include="..\CLIENT\Kernel.cpp" />
+    <ClCompile Include="..\CLIENT\KEY.CPP" />
+    <ClCompile Include="..\CLIENT\Lut.cpp" />
+    <ClCompile Include="..\CLIENT\MatroxApplication.cpp" />
+    <ClCompile Include="..\CLIENT\MatroxCamera.cpp" />
+    <ClCompile Include="..\CLIENT\MatroxCameraUeye.cpp" />
+    <ClCompile Include="..\CLIENT\MatroxCameraUV.cpp" />
+    <ClCompile Include="..\CLIENT\MatroxSystem.cpp" />
+    <ClCompile Include="..\CLIENT\Modele.cpp" />
+    <ClCompile Include="..\CLIENT\MySplitterWnd.cpp" />
+    <ClCompile Include="..\CLIENT\MyStrTable.cpp" />
+    <ClCompile Include="..\CLIENT\openSocketw.cpp" />
+    <ClCompile Include="..\CLIENT\Peson.cpp" />
+    <ClCompile Include="..\CLIENT\PesonEtui.cpp" />
+    <ClCompile Include="..\CLIENT\Process.cpp" />
+    <ClCompile Include="..\CLIENT\ProcessDMX.cpp" />
+    <ClCompile Include="..\CLIENT\Recette.cpp" />
+    <ClCompile Include="..\CLIENT\RecetteVision.cpp" />
+    <ClCompile Include="..\CLIENT\Robot.cpp" />
+    <ClCompile Include="..\CLIENT\SerialPort.cpp" />
+    <ClCompile Include="..\CLIENT\ServSocketDMX.cpp" />
+    <ClCompile Include="..\CLIENT\SiemensS7_x64.cpp" />
+    <ClCompile Include="..\CLIENT\splitfrm.cpp" />
+    <ClCompile Include="..\CLIENT\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\StringReader.cpp" />
+    <ClCompile Include="..\CLIENT\Utilisateur.cpp" />
+    <ClCompile Include="..\CLIENT\Vision.cpp" />
+    <ClCompile Include="..\CLIENT\VisionBoite.cpp" />
+    <ClCompile Include="..\CLIENT\Piste.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\CLASSES\ACYActiveDirectory\ACYActiveDirectory.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\AcyDial.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\ACYListBox.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Acy_Xml\tinystr.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxml.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_Base.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_File.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_Util.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\ado2.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Calibration.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagListe.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagPadAlpha.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagPadNum.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Image.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\ImageButtonWithStyle.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\BaseParam.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\DiagListeParam.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\DialogJeuParam.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\JeuParametres.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\KeyParam.H" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\Parametre.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\Static_ParamSlider.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\StaticMenu.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\StaticPolice.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES\VisualStylesXP.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\GraphListe.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\MenuAcyrus.h" />
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\StaticVisuImg_V2.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\VOYANT\Voyant.h" />
+    <ClInclude Include="..\CLIENT\Article.h" />
+    <ClInclude Include="..\CLIENT\Base.h" />
+    <ClInclude Include="..\CLIENT\BaseFenetre.h" />
+    <ClInclude Include="..\CLIENT\BaseFenetreDoc.h" />
+    <ClInclude Include="..\CLIENT\BaseFenetreView.h" />
+    <ClInclude Include="..\CLIENT\Blobs.h" />
+    <ClInclude Include="..\CLIENT\ButtonAlarme.h" />
+    <ClInclude Include="..\CLIENT\Camera.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\CellRange.h" />
+    <ClInclude Include="..\CLIENT\ClientOPC.h" />
+    <ClInclude Include="..\CLIENT\Code.h" />
+    <ClInclude Include="..\CLIENT\CodeBarreProj.h" />
+    <ClInclude Include="..\CLIENT\CodePiste.h" />
+    <ClInclude Include="..\CLIENT\CodeSachet.h" />
+    <ClInclude Include="..\CLIENT\ComHTML.h" />
+    <ClInclude Include="..\CLIENT\Compteurs.h" />
+    <ClInclude Include="..\CLIENT\config.h" />
+    <ClInclude Include="..\CLIENT\DalsaSpyder3CL.h" />
+    <ClInclude Include="..\CLIENT\Defaut.h" />
+    <ClInclude Include="..\CLIENT\DiagListeReq.h" />
+    <ClInclude Include="..\CLIENT\DiagSaisie.h" />
+    <ClInclude Include="..\CLIENT\DialAffGridRecette.h" />
+    <ClInclude Include="..\CLIENT\DialAlarmes.h" />
+    <ClInclude Include="..\CLIENT\DialCameras.h" />
+    <ClInclude Include="..\CLIENT\DialChargement.h" />
+    <ClInclude Include="..\CLIENT\DialDefautPiste.h" />
+    <ClInclude Include="..\CLIENT\DialDMX.h" />
+    <ClInclude Include="..\CLIENT\DialEtiquette.h" />
+    <ClInclude Include="..\CLIENT\DialFinOF.h" />
+    <ClInclude Include="..\CLIENT\DialGrpOPC.h" />
+    <ClInclude Include="..\CLIENT\DialInitialisation.h" />
+    <ClInclude Include="..\CLIENT\DialMachine.h" />
+    <ClInclude Include="..\CLIENT\DialMixup.h" />
+    <ClInclude Include="..\CLIENT\DialogParam.h" />
+    <ClInclude Include="..\CLIENT\DialParam.h" />
+    <ClInclude Include="..\CLIENT\DialPesee.h" />
+    <ClInclude Include="..\CLIENT\DialPesons.h" />
+    <ClInclude Include="..\CLIENT\DialRobot.h" />
+    <ClInclude Include="..\CLIENT\DialSelectPrint.h" />
+    <ClInclude Include="..\CLIENT\DialSelectRoi.h" />
+    <ClInclude Include="..\CLIENT\DialSplashInit.h" />
+    <ClInclude Include="..\CLIENT\DialFormulaire.h" />
+    <ClInclude Include="..\CLIENT\DialValidation.h" />
+    <ClInclude Include="..\CLIENT\DialValidLot.h" />
+    <ClInclude Include="..\CLIENT\DialVision.h" />
+    <ClInclude Include="..\CLIENT\EditClick.h" />
+    <ClInclude Include="..\CLIENT\Etiquette.h" />
+    <ClInclude Include="..\CLIENT\Extraction.h" />
+    <ClInclude Include="..\CLIENT\Form_camsim.h" />
+    <ClInclude Include="..\CLIENT\Form_DalsaSpyder.h" />
+    <ClInclude Include="..\CLIENT\FormBase.h" />
+    <ClInclude Include="..\CLIENT\FormMenuMachine.h" />
+    <ClInclude Include="..\CLIENT\FormStatus.h" />
+    <ClInclude Include="..\CLIENT\General.h" />
+    <ClInclude Include="..\CLIENT\GestAlarmes.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCell.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCellBase.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCtrl.h" />
+    <ClInclude Include="..\CLIENT\ImageResult.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\InPlaceEdit.h" />
+    <ClInclude Include="..\CLIENT\Journal.h" />
+    <ClInclude Include="..\CLIENT\Kernel.h" />
+    <ClInclude Include="..\CLIENT\KEY.H" />
+    <ClInclude Include="..\CLIENT\log2.h" />
+    <ClInclude Include="..\CLIENT\Lut.h" />
+    <ClInclude Include="..\CLIENT\MatroxApplication.h" />
+    <ClInclude Include="..\CLIENT\MatroxCamera.h" />
+    <ClInclude Include="..\CLIENT\MatroxCameraUeye.h" />
+    <ClInclude Include="..\CLIENT\MatroxCameraUV.h" />
+    <ClInclude Include="..\CLIENT\MatroxSystem.h" />
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\MemDC.h" />
+    <ClInclude Include="..\CLIENT\Modele.h" />
+    <ClInclude Include="..\CLIENT\MySplitterWnd.h" />
+    <ClInclude Include="..\CLIENT\MyStrTable.h" />
+    <ClInclude Include="..\CLIENT\Peson.h" />
+    <ClInclude Include="..\CLIENT\PesonEtui.h" />
+    <ClInclude Include="..\CLIENT\Piste.h" />
+    <ClInclude Include="..\CLIENT\Process.h" />
+    <ClInclude Include="..\CLIENT\ProcessDMX.h" />
+    <ClInclude Include="..\CLIENT\Recette.h" />
+    <ClInclude Include="..\CLIENT\RecetteVision.h" />
+    <ClInclude Include="..\CLIENT\Resource.h" />
+    <ClInclude Include="..\CLIENT\Robot.h" />
+    <ClInclude Include="..\CLIENT\SerialPort.h" />
+    <ClInclude Include="..\CLIENT\ServSocketDMX.h" />
+    <ClInclude Include="..\CLIENT\SiemensS7_x64.h" />
+    <ClInclude Include="..\CLIENT\splitfrm.h" />
+    <ClInclude Include="..\CLIENT\stdafx.h" />
+    <ClInclude Include="..\CLIENT\StringReader.h" />
+    <ClInclude Include="..\CLIENT\Utilisateur.h" />
+    <ClInclude Include="..\CLIENT\Vision.h" />
+    <ClInclude Include="..\CLIENT\VisionBoite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ALARME_B.bmp" />
+    <Image Include="res\ALARME_R.bmp" />
+    <Image Include="res\Annuler2.bmp" />
+    <Image Include="res\BaseFenetre.ico" />
+    <Image Include="res\BaseFenetreDoc.ico" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bit_acyr.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp_dals.bmp" />
+    <Image Include="res\Dalsa_Spyder.bmp" />
+    <Image Include="res\FlecheBas.bmp" />
+    <Image Include="res\FlecheDroite.bmp" />
+    <Image Include="res\FlecheGauche.bmp" />
+    <Image Include="res\FlecheHaut.bmp" />
+    <Image Include="res\iconAnnuler.ico" />
+    <Image Include="res\icone0.50.bmp" />
+    <Image Include="res\icone48.ico" />
+    <Image Include="res\iconSelection.ico" />
+    <Image Include="res\iconValider.ico" />
+    <Image Include="res\New_ButonTest.bmp" />
+    <Image Include="res\Stretch.bmp" />
+    <Image Include="res\StretchHrz.bmp" />
+    <Image Include="res\StretchVrt.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Valider2.bmp" />
+    <Image Include="res\ZoomMoins.bmp" />
+    <Image Include="res\ZoomPlus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaseFenetre.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BaseFenetre.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\ASPECT\AcyCL\AcyCL\AcyCL.csproj">
+      <Project>{2304c97d-bd0f-47a4-ae14-90476d4a76fb}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="BaseFenetre.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

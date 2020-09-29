@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASSES">
+      <UniqueIdentifier>{77617b59-e06e-44c9-bb7c-5e7aa2ceaaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASSES\ActiveDirectory">
+      <UniqueIdentifier>{05be7029-0cc6-4059-a137-db299f78b712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLIENT">
+      <UniqueIdentifier>{e640d9e5-0830-4569-88be-f16717555934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASSES\Params">
+      <UniqueIdentifier>{9f5de2b3-f673-4701-85c9-9aff2d790529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\COMMUN">
+      <UniqueIdentifier>{194f03f6-e495-49f6-8a23-03cc81ab2a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASSES\XML">
+      <UniqueIdentifier>{bc86b4df-c87e-47db-80b0-5dd6fbf48cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASSES">
+      <UniqueIdentifier>{624b2f86-14fa-415f-a489-d37b91721daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASSES\XML">
+      <UniqueIdentifier>{521970f2-81a9-492c-8df6-c9c5272f23c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASSES\Params">
+      <UniqueIdentifier>{6202bd37-ed0f-46fc-8c60-fe7ade176833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\COMMUN">
+      <UniqueIdentifier>{263123e7-242f-4fd9-ae82-d8ec3cb4583b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLIENT">
+      <UniqueIdentifier>{9042250d-d393-4edd-b78b-d8b6a99cd2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASSES_V2">
+      <UniqueIdentifier>{79b980cb-e56d-4918-b6ce-344a3e62a8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASSES_V2">
+      <UniqueIdentifier>{e33390c3-8bea-47e4-8be1-9fd655de2e68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\CLASSES\AcyDial.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\ACYListBox.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinystr.cpp">
+      <Filter>Fichiers sources\CLASSES\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxml.cpp">
+      <Filter>Fichiers sources\CLASSES\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxmlerror.cpp">
+      <Filter>Fichiers sources\CLASSES\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxmlparser.cpp">
+      <Filter>Fichiers sources\CLASSES\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_Base.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_File.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\AC_Util.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\ado2.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Calibration.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagListe.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagPadAlpha.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\DiagPadNum.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Image.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\ImageButtonWithStyle.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\BaseParam.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\DiagListeParam.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\DialogJeuParam.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\JeuParametres.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\KeyParam.CPP">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\Parametre.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\Params\Static_ParamSlider.cpp">
+      <Filter>Fichiers sources\CLASSES\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\StaticMenu.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\StaticPolice.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES\VisualStylesXP.cpp">
+      <Filter>Fichiers sources\CLASSES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\GraphListe.cpp">
+      <Filter>Fichiers sources\CLASSES_V2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\MenuAcyrus.cpp">
+      <Filter>Fichiers sources\CLASSES_V2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\CLASSES_V2\StaticVisuImg_V2.cpp">
+      <Filter>Fichiers sources\CLASSES_V2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\COMMUN\VOYANT\Voyant.cpp">
+      <Filter>Fichiers sources\COMMUN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCell.cpp">
+      <Filter>Fichiers sources\COMMUN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCellBase.cpp">
+      <Filter>Fichiers sources\COMMUN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\GridCtrl.cpp">
+      <Filter>Fichiers sources\COMMUN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\COMMUN\MFC GRID\InPlaceEdit.cpp">
+      <Filter>Fichiers sources\COMMUN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Article.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Base.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\BaseFenetre.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\BaseFenetreDoc.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\BaseFenetreView.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Blobs.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ButtonAlarme.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Camera.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ClientOPC.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Code.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\CodeBarreProj.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\CodePiste.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\CodeSachet.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ComHTML.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Compteurs.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\config.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DalsaSpyder3CL.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Defaut.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DiagListeReq.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DiagSaisie.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialAffGridRecette.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialAlarmes.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialCameras.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialChargement.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialDefautPiste.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialDMX.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialEtiquette.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialFinOF.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialGrpOPC.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialInitialisation.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialMachine.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialMixup.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialogParam.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialParam.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialPesee.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialPesons.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialRobot.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialSelectPrint.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialSelectRoi.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialSplashInit.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialValidation.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialValidLot.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialVision.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\EditClick.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Etiquette.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Extraction.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Form_camsim.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Form_DalsaSpyder.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\FormBase.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\FormMenuMachine.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\FormStatus.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\General.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\GestAlarmes.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ImageResult.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Journal.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Kernel.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\KEY.CPP">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Lut.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MatroxApplication.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MatroxCamera.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MatroxCameraUeye.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MatroxCameraUV.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MatroxSystem.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Modele.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MySplitterWnd.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\MyStrTable.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\openSocketw.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Peson.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\PesonEtui.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Piste.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Process.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ProcessDMX.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Recette.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\RecetteVision.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Robot.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\SerialPort.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\ServSocketDMX.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\SiemensS7_x64.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\splitfrm.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\stdafx.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\StringReader.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Utilisateur.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\Vision.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\VisionBoite.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLIENT\DialFormulaire.cpp">
+      <Filter>Fichiers sources\CLIENT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\CLASSES\ACYActiveDirectory\ACYActiveDirectory.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\ActiveDirectory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\AcyDial.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\ACYListBox.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Acy_Xml\tinystr.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Acy_Xml\tinyxml.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_Base.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_File.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\AC_Util.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\ado2.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Calibration.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagListe.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagPadAlpha.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\DiagPadNum.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Image.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\ImageButtonWithStyle.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\BaseParam.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\DiagListeParam.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\DialogJeuParam.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\JeuParametres.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\KeyParam.H">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\Parametre.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\Params\Static_ParamSlider.h">
+      <Filter>Fichiers d%27en-tête\CLASSES\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\StaticMenu.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\StaticPolice.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES\VisualStylesXP.h">
+      <Filter>Fichiers d%27en-tête\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\GraphListe.h">
+      <Filter>Fichiers d%27en-tête\CLASSES_V2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\MenuAcyrus.h">
+      <Filter>Fichiers d%27en-tête\CLASSES_V2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\CLASSES_V2\StaticVisuImg_V2.h">
+      <Filter>Fichiers d%27en-tête\CLASSES_V2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\VOYANT\Voyant.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\CellRange.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCell.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCellBase.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\GridCtrl.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\InPlaceEdit.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\COMMUN\MFC GRID\MemDC.h">
+      <Filter>Fichiers d%27en-tête\COMMUN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Article.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Base.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\BaseFenetre.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\BaseFenetreDoc.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\BaseFenetreView.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Blobs.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ButtonAlarme.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Camera.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ClientOPC.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Code.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\CodeBarreProj.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\CodePiste.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\CodeSachet.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ComHTML.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Compteurs.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\config.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DalsaSpyder3CL.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Defaut.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DiagListeReq.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DiagSaisie.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialAffGridRecette.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialAlarmes.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialCameras.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialChargement.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialDefautPiste.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialDMX.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialEtiquette.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialFinOF.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialGrpOPC.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialInitialisation.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialMachine.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialMixup.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialogParam.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialParam.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialPesee.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialPesons.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialRobot.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialSelectPrint.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialSelectRoi.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialSplashInit.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialValidation.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialValidLot.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialVision.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\EditClick.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Etiquette.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Extraction.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Form_camsim.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Form_DalsaSpyder.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\FormBase.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\FormMenuMachine.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\FormStatus.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\General.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\GestAlarmes.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Journal.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Kernel.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\KEY.H">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\log2.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Lut.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MatroxApplication.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MatroxCamera.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MatroxCameraUeye.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MatroxCameraUV.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MatroxSystem.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Modele.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MySplitterWnd.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\MyStrTable.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Peson.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\PesonEtui.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Piste.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Process.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ProcessDMX.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Recette.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\RecetteVision.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Resource.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Robot.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\SerialPort.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ServSocketDMX.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\SiemensS7_x64.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\splitfrm.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\stdafx.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\StringReader.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Utilisateur.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\Vision.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\VisionBoite.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\ImageResult.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLIENT\DialFormulaire.h">
+      <Filter>Fichiers d%27en-tête\CLIENT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ALARME_B.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\ALARME_R.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\BaseFenetre.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\BaseFenetreDoc.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Dalsa_Spyder.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\iconAnnuler.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\icone0.50.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\icone48.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\iconSelection.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\iconValider.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\New_ButonTest.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\ZoomPlus.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\ZoomMoins.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Valider2.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\StretchVrt.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\StretchHrz.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Stretch.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\FlecheHaut.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\FlecheGauche.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\FlecheDroite.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\FlecheBas.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bmp_dals.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bit_acyr.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\Annuler2.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaseFenetre.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BaseFenetre.rc2">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
